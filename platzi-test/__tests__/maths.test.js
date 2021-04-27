@@ -7,4 +7,10 @@ describe('Calculos matematicos', () => {
 	test('Multiplicar', () => {
 		expect(multiplicar(2, 2)).toBe(4)
 	})
+	test('Dividir', () => {
+		expect(dividir(2, 2)).toBe(1)
+	})
+	test('Restar', () => {
+		expect(restar(2, 2)).toBe(0)
+	})
 })
